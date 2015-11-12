@@ -2,14 +2,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
 	 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.theoryinpractise</groupId>
+	<groupId>com.gubnoi</groupId>
 	<artifactId>clojure.osgi</artifactId>
 	<packaging>bundle</packaging>
-	<version>1.6.0-1</version>
+	<version>1.7.0-1</version>
 	<name>ClojureOSGI</name>
 
 	<properties>
-		<clojure-version>1.6.0</clojure-version>
+		<clojure-version>1.7.0</clojure-version>
 	</properties>
 
 	<dependencies>
@@ -81,9 +81,10 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
+                                <version>3.3</version>
 				<configuration>
-					<source>1.5</source>
-					<target>1.5</target>
+					<source>1.6</source>
+					<target>1.6</target>
 					<meminitial>128m</meminitial>
 					<maxmem>512m</maxmem>
 				</configuration>
